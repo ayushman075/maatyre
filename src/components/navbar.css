@@ -1,0 +1,116 @@
+
+.navdiv{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(5, 206, 206);
+    position: sticky;
+    
+}
+h2{
+  margin: 10px;
+  margin-right: 20%;
+  
+}
+
+.logoname{
+    margin: 5px;
+ color: rgb(255, 255, 255);
+ margin-right: 25%;
+}
+.tab{
+    display: flex;
+    flex-direction: row;
+    max-width: 40;
+    background-color:rgb(253, 254, 254) ;
+}
+.tabdiv{
+    font-size: larger;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color:rgb(5, 206, 206);
+    padding: 10px;
+    margin: 10px;
+
+}
+#workordertab:hover{
+    background-color: #072451;
+    cursor:default;
+}
+#pendingpickuprequesttab:hover{
+  background-color: #072451;
+  cursor:default;
+}
+#ongoingpickuprequesttab:hover{
+  background-color: #072451;
+  cursor:default;
+}
+#completedpickuprequesttab:hover{
+  background-color: #072451;
+  cursor:default;
+}
+#trippaneltab:hover{
+    background-color: #072451;
+    cursor:default;
+}
+#pickuprequesttab:hover{
+  background-color: #072451;
+  cursor:default;
+}
+.logoutbtn{
+    margin: 10px;
+}
+.dropbtn{
+  margin: 15px;
+ 
+  
+}
+/* Dropdown Button */
+#pickuprequesttab {
+    background-color: rgb(5, 206, 206);
+    color: white;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    border-color: rgb(5, 206, 206);
+    box-shadow: rgb(5, 206, 206);
+    font-size: larger;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color:rgb(5, 206, 206);
+    padding: 10px;
+    margin-top: 3px;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    
+    z-index: 1;
+    
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #072451;}

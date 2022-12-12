@@ -1,0 +1,58 @@
+.partydetails{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+.tyredetailstable{
+    align-items: flex-start;
+}
+.tyredetails{
+    float: left;
+    margin-top: 20px;
+}
+.woformattop{
+    display: flex;
+    flex-direction: column;
+}
+.wobranding{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+p{
+    width: 600px;
+    font-size: large;
+}
+.reportdiv{
+    max-width: 620px;
+    
+    
+}
+
+.h1div{
+    width: 600px;
+    font-size: xx-large;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+    
+}
+
+
+
+#fnfield{
+    
+}
+.datafield{
+    width: 400px;
+     border-style:none ; 
+    background-color:white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+   
+
+}
+input{}

@@ -1,0 +1,48 @@
+.tripformdiv{
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+.prno{
+    border-style: none;
+}
+.tpn{
+    border-style: none;
+}
+form{
+    
+    max-width: 1250px;
+    margin-left : auto;
+    margin-right: auto;
+    border-style: groove;
+    border-radius: 20px;
+    border-color: aqua;
+    margin-bottom: 10px;
+}
+.pendingpickuptab{
+    max-width: 47%;
+    margin-right: 5%;
+    
+}
+.tablediv{
+    
+    display: flex;
+    
+    
+
+    
+    
+}
+.triptable{
+    
+   margin-left: 5%;
+    max-width: 47%;
+   
+        
+    
+     
+}
+.tripphead{
+   
+}
